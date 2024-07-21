@@ -61,7 +61,7 @@ function checkCollision(hacman, ghosts) {
       collidedGhost.pos = collidedGhost.startPos;
       score += 100;
     } else {
-      gameBoard.removeObject(hacman.pos, [OBJECT_TYPE.PACMAN]);
+      gameBoard.removeObject(hacman.pos, [OBJECT_TYPE.HACMAN]);
       gameBoard.rotateDiv(hacman.pos, 0);
       gameOver(hacman, gameGrid);
     }

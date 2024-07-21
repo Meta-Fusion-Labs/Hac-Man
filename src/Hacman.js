@@ -1,6 +1,6 @@
 import { OBJECT_TYPE, DIRECTIONS } from './setup';
 
-class Pacman {
+class Hacman {
   constructor(speed, startPos) {
     this.pos = startPos;
     this.speed = speed;
@@ -35,8 +35,8 @@ class Pacman {
   }
 
   makeMove() {
-    const classesToRemove = [OBJECT_TYPE.PACMAN];
-    const classesToAdd = [OBJECT_TYPE.PACMAN];
+    const classesToRemove = [OBJECT_TYPE.HACMAN];
+    const classesToAdd = [OBJECT_TYPE.HACMAN];
 
     return { classesToRemove, classesToAdd };
   }
@@ -60,4 +60,4 @@ class Pacman {
   };
 }
 
-export default Pacman;
+export default Hacman;
