@@ -3,7 +3,7 @@
 }
 
 body {
-  background: black;
+  background: url('background.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -19,8 +19,6 @@ body {
   position: relative;
   display: inline-grid;
   background: black;
-  border: 2px solid rgb(255, 0, 255);
-  margin: 100px;
 }
 
 .game-status {
@@ -45,9 +43,7 @@ body {
   justify-content: center;
   width: 200px;
   height: 50px;
-  border-width: 4px;
-  border-style: solid;
-  border-image: linear-gradient(to right, rgb(0, 217, 255), rgb(255, 0, 255)) 1;
+  border: 5px darkblue solid;
   background: black;
   margin-top: 20px;
   color: white;
@@ -57,17 +53,6 @@ body {
 
 #start-button {
   margin-top: 20px;
-  padding: 5px 10px;
-  border-width: 4px;
-  border-style: solid;
-  border-image: linear-gradient(to right, rgb(0, 217, 255), rgb(255, 0, 255)) 1;
-  background: rgb(0, 217, 255);
-}
-
-#start-button:hover {
-  background: rgb(255, 0, 255);
-  cursor: pointer;
-  color: white;
 }
 
 .hide {
@@ -150,8 +135,8 @@ body {
   background: orange;
 }
 
-.hacman {
-  background: rgb(255, 0, 255);
+.pacman {
+  background: yellow;
   border: none;
   border-radius: 50%;
   clip-path: polygon(
@@ -179,4 +164,3 @@ body {
     );
   }
 }
-
