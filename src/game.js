@@ -2,7 +2,7 @@ import { LEVEL, OBJECT_TYPE } from './setup';
 import { randomMovement } from './ghostmoves';
 // Classes
 import GameBoard from './GameBoard';
-import Pacman from './Hacman';
+import Hacman from './Hacman';
 import Ghost from './Ghost';
 // Sounds
 import soundDot from './sounds/munch.wav';
@@ -33,11 +33,11 @@ function playAudio(audio) {
 }
 
 // --- GAME CONTROLLER --- //
-function gameOver(pacman, grid) {
+function gameOver(hacman, grid) {
   playAudio(soundGameOver);
 
   document.removeEventListener('keydown', (e) =>
-    pacman.handleKeyInput(e, gameBoard.objectExist.bind(gameBoard))
+    hacman.handleKeyInput(e, gameBoard.objectExist.bind(gameBoard))
   );
 
   gameBoard.showGameStatus(gameWin);
@@ -47,11 +47,11 @@ function gameOver(pacman, grid) {
   startButton.classList.remove('hide');
 }
 
-function checkCollision(pacman, ghosts) {
-  const collidedGhost = ghosts.find((ghost) => pacman.pos === ghost.pos);
+function checkCollision(hacman, ghosts) {
+  const collidedGhost = ghosts.find((ghost) => hacman.pos === ghost.pos);
 
   if (collidedGhost) {
-    if (pacman.powerPill) {
+    if (hacman.powerPill) {
       playAudio(soundGhost);
       gameBoard.removeObject(collidedGhost.pos, [
         OBJECT_TYPE.GHOST,
@@ -61,56 +61,56 @@ function checkCollision(pacman, ghosts) {
       collidedGhost.pos = collidedGhost.startPos;
       score += 100;
     } else {
-      gameBoard.removeObject(pacman.pos, [OBJECT_TYPE.PACMAN]);
-      gameBoard.rotateDiv(pacman.pos, 0);
-      gameOver(pacman, gameGrid);
+      gameBoard.removeObject(hacman.pos, [OBJECT_TYPE.PACMAN]);
+      gameBoard.rotateDiv(hacman.pos, 0);
+      gameOver(hacman, gameGrid);
     }
   }
 }
 
-function gameLoop(pacman, ghosts) {
+function gameLoop(hacman, ghosts) {
   // 1. Move Pacman
-  gameBoard.moveCharacter(pacman);
+  gameBoard.moveCharacter(hacman);
   // 2. Check Ghost collision on the old positions
-  checkCollision(pacman, ghosts);
+  checkCollision(hacman, ghosts);
   // 3. Move ghosts
   ghosts.forEach((ghost) => gameBoard.moveCharacter(ghost));
   // 4. Do a new ghost collision check on the new positions
-  checkCollision(pacman, ghosts);
+  checkCollision(hacman, ghosts);
   // 5. Check if Pacman eats a dot
-  if (gameBoard.objectExist(pacman.pos, OBJECT_TYPE.DOT)) {
+  if (gameBoard.objectExist(hacman.pos, OBJECT_TYPE.DOT)) {
     playAudio(soundDot);
 
-    gameBoard.removeObject(pacman.pos, [OBJECT_TYPE.DOT]);
+    gameBoard.removeObject(hacman.pos, [OBJECT_TYPE.DOT]);
     // Remove a dot
     gameBoard.dotCount--;
     // Add Score
     score += 10;
   }
   // 6. Check if Pacman eats a power pill
-  if (gameBoard.objectExist(pacman.pos, OBJECT_TYPE.PILL)) {
+  if (gameBoard.objectExist(hacman.pos, OBJECT_TYPE.PILL)) {
     playAudio(soundPill);
 
-    gameBoard.removeObject(pacman.pos, [OBJECT_TYPE.PILL]);
+    gameBoard.removeObject(hacman.pos, [OBJECT_TYPE.PILL]);
 
-    pacman.powerPill = true;
+    hacman.powerPill = true;
     score += 50;
 
     clearTimeout(powerPillTimer);
     powerPillTimer = setTimeout(
-      () => (pacman.powerPill = false),
+      () => (hacman.powerPill = false),
       POWER_PILL_TIME
     );
   }
   // 7. Change ghost scare mode depending on powerpill
-  if (pacman.powerPill !== powerPillActive) {
-    powerPillActive = pacman.powerPill;
-    ghosts.forEach((ghost) => (ghost.isScared = pacman.powerPill));
+  if (hacman.powerPill !== powerPillActive) {
+    powerPillActive = hacman.powerPill;
+    ghosts.forEach((ghost) => (ghost.isScared = hacman.powerPill));
   }
   // 8. Check if all dots have been eaten
   if (gameBoard.dotCount === 0) {
     gameWin = true;
-    gameOver(pacman, gameGrid);
+    gameOver(hacman, gameGrid);
   }
   // 9. Show new score
   scoreTable.innerHTML = score;
@@ -127,10 +127,10 @@ function startGame() {
 
   gameBoard.createGrid(LEVEL);
 
-  const pacman = new Pacman(2, 287);
-  gameBoard.addObject(287, [OBJECT_TYPE.PACMAN]);
+  const hacman = new Hacman(2, 287);
+  gameBoard.addObject(287, [OBJECT_TYPE.HACMAN]);
   document.addEventListener('keydown', (e) =>
-    pacman.handleKeyInput(e, gameBoard.objectExist.bind(gameBoard))
+    hacman.handleKeyInput(e, gameBoard.objectExist.bind(gameBoard))
   );
 
   const ghosts = [
@@ -141,7 +141,7 @@ function startGame() {
   ];
 
   // Gameloop
-  timer = setInterval(() => gameLoop(pacman, ghosts), GLOBAL_SPEED);
+  timer = setInterval(() => gameLoop(hacman, ghosts), GLOBAL_SPEED);
 }
 
 // Initialize game
