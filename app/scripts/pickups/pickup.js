@@ -198,6 +198,4 @@ class Pickup {
   }
 }
 
-// removeIf(production)
-module.exports = Pickup;
-// endRemoveIf(production)
+export default Pickup;

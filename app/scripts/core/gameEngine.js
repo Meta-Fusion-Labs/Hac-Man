@@ -155,6 +155,4 @@ class GameEngine {
   }
 }
 
-// removeIf(production)
-module.exports = GameEngine;
-// endRemoveIf(production)
+export default GameEngine;

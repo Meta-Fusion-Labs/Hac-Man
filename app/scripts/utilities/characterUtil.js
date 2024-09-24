@@ -275,6 +275,4 @@ class CharacterUtil {
   }
 }
 
-// removeIf(production)
-module.exports = CharacterUtil;
-// endRemoveIf(production)
+export default CharacterUtil;

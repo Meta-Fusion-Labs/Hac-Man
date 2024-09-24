@@ -263,6 +263,4 @@ class Pacman {
   }
 }
 
-// removeIf(production)
-module.exports = Pacman;
-// endRemoveIf(production)
+export default Pacman;

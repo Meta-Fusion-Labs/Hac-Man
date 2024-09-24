@@ -841,6 +841,4 @@ class Ghost {
   }
 }
 
-// removeIf(production)
-module.exports = Ghost;
-// endRemoveIf(production)
+export default Ghost;

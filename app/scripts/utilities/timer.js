@@ -50,6 +50,4 @@ class Timer {
   }
 }
 
-// removeIf(production)
-module.exports = Timer;
-// endRemoveIf(production)
+export default Timer;

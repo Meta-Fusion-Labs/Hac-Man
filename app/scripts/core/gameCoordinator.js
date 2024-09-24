@@ -1265,6 +1265,4 @@ class GameCoordinator {
   }
 }
 
-// removeIf(production)
 export default GameCoordinator;
-// endRemoveIf(production)

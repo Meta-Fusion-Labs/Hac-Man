@@ -142,6 +142,4 @@ class SoundManager {
   }
 }
 
-// removeIf(production)
-module.exports = SoundManager;
-// endRemoveIf(production)
+export default SoundManager;
