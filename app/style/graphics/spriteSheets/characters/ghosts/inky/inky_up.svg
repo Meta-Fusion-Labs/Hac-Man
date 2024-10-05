@@ -1,12 +1,6 @@
-<svg width="32" height="16" viewBox="0 0 32 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M3 3V4H2V7H1V15H2V14H3V13H4V14H5V15H7V13H9V15H11V14H12V13H13V14H14V15H15V7H14V4H13V3H12V2H10V1H6V2H5H4V3H3Z" fill="#00FFFF"/>
-<path d="M4 6V7H6V6H7V3H6V2H4V3H3V6H4Z" fill="#E0DDFF"/>
-<path d="M4 4V2H6V4H4Z" fill="#2121FF"/>
-<path d="M10 6V7H12V6H13V3H12V2H10V3H9V6H10Z" fill="#E0DDFF"/>
-<path d="M10 4V2H12V4H10Z" fill="#2121FF"/>
-<path d="M19 3V4H18V7H17V14H18V15H20V14H21V13H22V14H23V15H25V14H26V13H27V14H28V15H30V14H31V7H30V4H29V3H28V2H26V1H22V2H21H20V3H19Z" fill="#00FFFF"/>
-<path d="M20 6V7H22V6H23V3H22V2H20V3H19V6H20Z" fill="#E0DDFF"/>
-<path d="M20 4V2H22V4H20Z" fill="#2121FF"/>
-<path d="M26 6V7H28V6H29V3H28V2H26V3H25V6H26Z" fill="#E0DDFF"/>
-<path d="M26 4V2H28V4H26Z" fill="#2121FF"/>
+<!--version="1.0" standalone="no"--><!DOCTYPE html PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body_1" width="32" height="16" preserveAspectRatio="xMidYMid meet" zoomAndPan="magnify" version="1.0" contentScriptType="text/ecmascript" contentStyleType="text/css">
+
+<g transform="matrix(1.3333334 0 0 1.3333334 0 0)">
+    <image x="0" y="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAYAAAB3AH1ZAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABiUlEQVR4nMxUS07DMBB1DRJ01QYJ1hyDK/Qg0JJT5AQsWCCx4hzQlkogcQkOwAIJkJD4NZ7Bz/G4wVSKkwXC0pOt2G/mzbxRlPrPq0dEQFe+NqY7f4NKkFkxsz1z6+RlxQd0aVrz1d7bI2kyDv3le+sqfPXs0a0Lx8MZAU3vmOFWZVjEZ6D+Td4dPDzvNyUHmSaD6a8g8TJGEzuzFNvgAIQzuMLHd7nHbjmrmL4CDjAIcBXIOHvluGP60j8E2YjSARYheXbJY8sFcMZ9TSDHFRghCqDQ+ug8LMtNWnNPsQjf4lCpzEAQ70RU72RfefOpwyNA2jcZVjstax34cC3v1ZMDRVFo7C9nt5n4L3g9vdmNxabMQMDonrcaSZLgYrEtMzD2/Kfz6SCVr/IMvs1CC9dNc4N410HhpwxyHMARoP4om7tzbvcULqzxXJIh9AKIT+76yQFEvR9xTvkfyILYmI9vSd7LQuUyiIc71wiUTEYiWCg/MhTUKnmtEkKg1sQgYm4s33Th/9n6BgAA///AHcWoAAAABklEQVQDANmI8lqvLOyQAAAAAElFTkSuQmCC" preserveAspectRatio="none" width="24" height="12" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+</g>
 </svg>

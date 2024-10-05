@@ -1,12 +1,6 @@
-<svg width="32" height="16" viewBox="0 0 32 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M3 3V4H2V7H1V15H2V14H3V13H4V14H5V15H7V13H9V15H11V14H12V13H13V14H14V15H15V7H14V4H13V3H12V2H10V1H6V2H5H4V3H3Z" fill="#FCB5FF"/>
-<path d="M4 6V7H6V6H7V3H6V2H4V3H3V6H4Z" fill="#E0DDFF"/>
-<path d="M4 4V2H6V4H4Z" fill="#2121FF"/>
-<path d="M10 6V7H12V6H13V3H12V2H10V3H9V6H10Z" fill="#E0DDFF"/>
-<path d="M10 4V2H12V4H10Z" fill="#2121FF"/>
-<path d="M19 3V4H18V7H17V14H18V15H20V14H21V13H22V14H23V15H25V14H26V13H27V14H28V15H30V14H31V7H30V4H29V3H28V2H26V1H22V2H21H20V3H19Z" fill="#FCB5FF"/>
-<path d="M20 6V7H22V6H23V3H22V2H20V3H19V6H20Z" fill="#E0DDFF"/>
-<path d="M20 4V2H22V4H20Z" fill="#2121FF"/>
-<path d="M26 6V7H28V6H29V3H28V2H26V3H25V6H26Z" fill="#E0DDFF"/>
-<path d="M26 4V2H28V4H26Z" fill="#2121FF"/>
+<!--version="1.0" standalone="no"--><!DOCTYPE html PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body_2" width="32" height="16" preserveAspectRatio="xMidYMid meet" zoomAndPan="magnify" version="1.0" contentScriptType="text/ecmascript" contentStyleType="text/css">
+
+<g transform="matrix(1.3333334 0 0 1.3333334 0 0)">
+    <image x="0" y="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAYAAAB3AH1ZAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABrElEQVR4nMxUO07DQBDd0PAREqJIg1NQcAcSp6DmIpwjJ6CgABxH4hCUKQKJxCXoQSL+xSESQcoO+8YeK3ZBvA1kpKcdeefNvJlZWalttuW9o4F/4YP47Z0QYHz6a36hPkPLuouvuxa4XBy+tQDY3B9rYFMcKTrshqFuB2kpNvXHFA8mpe47Qcxx7ff4dFNxQvHP/jPOX0foRrE+n87JJCY3jHFCOIEr6IQzvgcQ60ZJOWc3iHQnKIJKCeCbOyjnRG6Y0IyaZ8Lt9Xo7uBcRQN5AAcPTcgdUOkhWTJ5m6lhhkGB3tDQw9+vJ2e9G8aq0BqIGTukQQuUNrPG1xMnJdvX4dnARfGgI4P3kE1j0nxip2aMU5imYbqvFAUwCZ3I7OQZnfYLzm3GzKrbGG8jIicHlK+1uJEmBh9FeyvyhwYhzRN7wqC5fQT1IWAEge7Tg8wTlHwA/HdTnK3mAsgIbAUSqkTegFz74o1zARNP1y36tBCAsPYeyP5nDfp3/gRjE8wP0nOIh4lut3Yuhc56Cl01BWZBRiLmYgJ/xrYqLoevUYvdVEcyv/Am3zn4AAAD//0IKw04AAAAGSURBVAMAh+469hTnkRYAAAAASUVORK5CYII=" preserveAspectRatio="none" width="24" height="12" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+</g>
 </svg>
