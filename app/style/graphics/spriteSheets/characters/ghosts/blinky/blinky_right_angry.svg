@@ -1,16 +1,6 @@
-<svg width="32" height="16" viewBox="0 0 32 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M3 3V4H2V7H1V15H2V14H3V13H4V14H5V15H7V13H9V15H11V14H12V13H13V14H14V15H15V7H14V4H13V3H12V2H10V1H6V2H5H4V3H3Z" fill="#FF0000"/>
-<path d="M5 8V9H7V8H8V5H7V4H5V5H4V8H5Z" fill="#E0DDFF"/>
-<path d="M6 8V6H8V8H6Z" fill="#2121FF"/>
-<path d="M11 8V9H13V8H14V5H13V4H11V5H10V8H11Z" fill="#E0DDFF"/>
-<path d="M12 8V6H14V8H12Z" fill="#2121FF"/>
-<path d="M19 3V4H18V7H17V14H18V15H20V14H21V13H22V14H23V15H25V14H26V13H27V14H28V15H30V14H31V7H30V4H29V3H28V2H26V1H22V2H21H20V3H19Z" fill="#FF0000"/>
-<path d="M21 8V9H23V8H24V5H23V4H21V5H20V8H21Z" fill="#E0DDFF"/>
-<path d="M22 8V6H24V8H22Z" fill="#2121FF"/>
-<path d="M27 8V9H29V8H30V5H29V4H27V5H26V8H27Z" fill="#E0DDFF"/>
-<path d="M28 8V6H30V8H28Z" fill="#2121FF"/>
-<path d="M8 6H7V5H6V4H5V3H6V4H7V5H8V6Z" fill="black"/>
-<path d="M10 6H11V5H12V4H13V3H12V4H11V5H10V6Z" fill="black"/>
-<path d="M24 6H23V5H22V4H21V3H22V4H23V5H24V6Z" fill="black"/>
-<path d="M26 6H27V5H28V4H29V3H28V4H27V5H26V6Z" fill="black"/>
+<!--version="1.0" standalone="no"--><!DOCTYPE html PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body_1" width="32" height="16" preserveAspectRatio="xMidYMid meet" zoomAndPan="magnify" version="1.0" contentScriptType="text/ecmascript" contentStyleType="text/css">
+
+<g transform="matrix(1.3333334 0 0 1.3333334 0 0)">
+    <image x="0" y="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAYAAAB3AH1ZAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABwUlEQVR4nMyVO07DQBCGZ52QFFCEhkcRQZFj0FFT0VBwCI4QiZJL0CDOhaghCCUm2N4Z/tlHbCtPGwmx1m87yv4z34zXa6L/PETE6HU8HidFt5sK0Wkj/2jUt0li4eu2BlCxMYwgotcmfu9jyfdOGvkWQyt3ID75egChQ+gWuoDuoHtoqD4FYHMkrQBC9YI2sl7XT6QrqHpkei4BNnjrCenbWmJIIkBs/edgsK56A71BnBXIhsRF4SBe8l6PlWOnR6fGIcIwE0MuSFG46kWBIhTOU1dhZZzFpN7v7vWqUj/at9FP1hqXdH+iRePv1JslNDTnMiAODSUJOhX9SOAqP5iEOakH1ns8Qw/if/MqvwL4ZHkIMCNH7QKgC0UdAOmIqwGsTZb8WWYkz0uAIF7ldwOTc/ooyb3CAgxtDS38chiVNXAu9D6fk1xW/DNApOhE0enwAn6Vv/4o/CKKk6uLMOv3Ny1CdeQoovQLvSp8eAt23wcQ4LgG5YJs2YSErkNlNsA4BH399C3QhbgzwDKQmK0QfiN6gh6gZ+gRuvEA3B4gfgvwHCXuhk38+H7EfeB3HYDbBAjTyIv5qH7aOvlfjB8AAAD//9Ly0s8AAAAGSURBVAMAzNX1ukPEgmEAAAAASUVORK5CYII=" preserveAspectRatio="none" width="24" height="12" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+</g>
 </svg>

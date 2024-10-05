@@ -1,16 +1,6 @@
-<svg width="32" height="16" viewBox="0 0 32 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M3 3V4H2V7H1V15H2V14H3V13H4V14H5V15H7V13H9V15H11V14H12V13H13V14H14V15H15V7H14V4H13V3H12V2H10V1H6V2H5H4V3H3Z" fill="#FF0000"/>
-<path d="M5 8V9H7V8H8V5H7V4H5V5H4V8H5Z" fill="#E0DDFF"/>
-<path d="M6 8V6H8V8H6Z" fill="#2121FF"/>
-<path d="M11 8V9H13V8H14V5H13V4H11V5H10V8H11Z" fill="#E0DDFF"/>
-<path d="M12 8V6H14V8H12Z" fill="#2121FF"/>
-<path d="M19 3V4H18V7H17V14H18V15H20V14H21V13H22V14H23V15H25V14H26V13H27V14H28V15H30V14H31V7H30V4H29V3H28V2H26V1H22V2H21H20V3H19Z" fill="#FF0000"/>
-<path d="M21 8V9H23V8H24V5H23V4H21V5H20V8H21Z" fill="#E0DDFF"/>
-<path d="M22 8V6H24V8H22Z" fill="#2121FF"/>
-<path d="M27 8V9H29V8H30V5H29V4H27V5H26V8H27Z" fill="#E0DDFF"/>
-<path d="M28 8V6H30V8H28Z" fill="#2121FF"/>
-<path d="M8 5H7V4H6V3H7V4H8V5Z" fill="black"/>
-<path d="M10 5H11V4H12V3H11V4H10V5Z" fill="black"/>
-<path d="M24 5H23V4H22V3H23V4H24V5Z" fill="black"/>
-<path d="M26 5H27V4H28V3H27V4H26V5Z" fill="black"/>
+<!--version="1.0" standalone="no"--><!DOCTYPE html PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body_1" width="32" height="16" preserveAspectRatio="xMidYMid meet" zoomAndPan="magnify" version="1.0" contentScriptType="text/ecmascript" contentStyleType="text/css">
+
+<g transform="matrix(1.3333334 0 0 1.3333334 0 0)">
+    <image x="0" y="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAYAAAB3AH1ZAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABh0lEQVR4nMyUUUsCQRCAZ7UgqAwDyUA9KyEkref+nX9Y1LiHuG5nmpndPW9T8TYhWhjuxPtmvp0dFuA/LyIy8pyvb7oZGswIpin8K91dZrZlTxKQmOYdHBHQ2LYxhefiJNzbqpfEVWuxWLQ0keweDckzSYAZFS/b1Bgigsn2nYwkGXPMyqvmSYKA70BTcWMtIAsQImAQCAkeyrODSZgxyyV08rziVXa2udWjY5HjAlycljDQ4pLAhaGXjy7JfyEpwajk2BksKex5DWEkJp8XP3m7w3MhNV/1B1qUHdwTNa++h50xjBz8TVbtylqj0isW0O8MOhE+AseHDQHu48EVM/TVH7oENYHo3QsILEl2eBg6WS+tEWS2vBaPBEIL1/dxCyUBTzBa/9u3kOrF6/zmvVe1O4ScP8Y87uPDHERDVB/Cx/L86CAVRczz+TcfwkNL4HAPpLLSvZMF9C7gYQoiSQLWCyRyUXFNhGkXSljyve9AcvciiSHBkyYhaKewzwTXzBW/Lv4X6xsAAP//qHpxYQAAAAZJREFUAwC8gcnV7bChpwAAAABJRU5ErkJggg==" preserveAspectRatio="none" width="24" height="12" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+</g>
 </svg>

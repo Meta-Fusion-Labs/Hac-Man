@@ -1,3 +1,6 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M13 25V26H14V27H15V28H16V27H17V26H18V25H17H16H15H14H13Z" fill="#FFF295"/>
+<!--version="1.0" standalone="no"--><!DOCTYPE html PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body_1" width="32" height="32" preserveAspectRatio="xMidYMid meet" zoomAndPan="magnify" version="1.0" contentScriptType="text/ecmascript" contentStyleType="text/css">
+
+<g transform="matrix(1.3333334 0 0 1.3333334 0 0)">
+    <image x="0" y="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAQElEQVR4nOzP0QkAIAxDwSq4/8aJreAKivIOAv1LGgEAAAAAL1KXNWSHraaVvNvZETlgDckcLd7q4/r8Sjm+MgEAAP//rKq+pAAAAAZJREFUAwDqVR7nj/hubQAAAABJRU5ErkJggg==" preserveAspectRatio="none" width="24" height="24" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+</g>
 </svg>
