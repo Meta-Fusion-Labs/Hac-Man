@@ -1,3 +1,6 @@
-<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M2 3V5H4V6H7V7H10V8H7V9H4V10H2V12H3V13H5V14H10V13H12V12H13V10H14V5H13V3H12V2H10V1H5V2H3V3H2Z" fill="#FFFF00"/>
+<!--version="1.0" standalone="no"--><!DOCTYPE html PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body_1" width="16" height="16" preserveAspectRatio="xMidYMid meet" zoomAndPan="magnify" version="1.0" contentScriptType="text/ecmascript" contentStyleType="text/css">
+
+<g transform="matrix(1.3333334 0 0 1.3333334 0 0)">
+    <image x="0" y="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAgUlEQVR4nLxSiw6AIAgU/v+HWwo9FCXJ1LZiu6noHSfq3GfBTCfKmmcFcIdXYjhK5ESAXFWcxD0BtAQgHUAlwOZKFYlUFcoVtIOSb4hYi4KgHEjOj5LbmHBwB6qJtgdxvqpceG5kEZNXOMalamKHHA/7zj8YFkIjMBXXvsA7kT9iAwAA///clgoFAAAABklEQVQDABnMGM+KBlsnAAAAAElFTkSuQmCC" preserveAspectRatio="none" width="12" height="12" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+</g>
 </svg>
